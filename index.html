@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>खेलो जीतो और बनो बाजरे के विजेता</title>
+
+    <!-- Website Icon  -->
+    <link rel="Icon" href="main/image/logo_new.png">
+
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="main/css/reset.css" />
+
+    <!-- bootstrap Css -->
+    <link rel="stylesheet" href="main/css/bootstrap.css" />
+
+    <!-- style Css -->
+    <link rel="stylesheet" href="main/css/style.css" />
+
+    <!-- responsive Css -->
+    <link rel="stylesheet" href="main/css/responsive.css" />
+
+    <!-- fontawesome Icon  -->
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="position-relative">
+    <img
+      src="main/image/background1.jpg"
+      id="background"
+      class="img-fluid"
+      alt=""
+    />
+    <div class="container-xxl">
+      <div class="row mt-3 justify-content-center">
+        <div class="col-12">
+          <img src="main/image/main_logo.png" class="w-100" alt="" />
+        </div>
+        <div class="col-5">
+          <img src="main/image/logo_new.png" class="w-100" alt="" />
+        </div>
+        <div class="col-8 mt-5 text-center">
+          <a href="main/set1.html" class="btn1 px-5 py-2">SET 1</a>
+          <a href="main/set2.html" class="btn2 px-5 py-2">SET 2</a>
+        </div>
+      </div>
+    </div>
+
+    <audio src="main/sounds/intro.mp3" id="welcome"></audio>
+
+    <!-- ========== Bootstrap Js ========== -->
+    <script src="main/js/bootstrap.js"></script>
+
+    <!-- ========== main Js ========== -->
+    <script src="main/js/main.js"></script>
+    <script>
+      window.onload = () => {
+        document.querySelector("#welcome").play();
+      };
+    </script>
+  </body>
+</html>

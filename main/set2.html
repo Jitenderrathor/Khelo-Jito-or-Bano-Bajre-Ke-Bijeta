@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>खेलो जीतो और बनो बाजरे के विजेता</title>
+
+    <!-- Website Icon  -->
+    <link rel="Icon" href="image/logo_new.png">
+
+    <!-- Reset Css -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- style Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- responsive Css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- fontawesome Icon  -->
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="position-relative">
+    <!-- logo Section Start  -->
+    <section class="logo_home text-center ">
+        <div class="container-xxl p-0">
+            <img src="image/background1.jpg" id="background" class="img-fluid" alt="">
+            <!-- Header Section Start  -->
+            <header class="header">
+                <div class="row justify-content-center align-items-center">
+
+                    <div class="col-11  text-center py-2">
+                        <img src="image/main_logo.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </header>
+            <!-- Header Section End  -->
+            <div class="row justify-content-center">
+                <div class="col-4"><img src="image/logo_new.png" alt="" class="img-fluid">
+                    <button class="btn start_game fs-4 w-50 py-3 mt-3 rounded rounded-1">खेल शुरू करे</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- logo Section End  -->
+
+    <!-- Home Section Start  -->
+    <section class="home d-none">
+        <div class="container-xxl p-0 ">
+            <img src="image/background1.jpg" id="background" class="img-fluid" alt="">
+            <!-- Header Section Start  -->
+            <header class="header">
+                <div class="row justify-content-center">
+                    <div class="col-11 py-1">
+                        <img src="image/logo_13.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </header>
+            <!-- Header Section End  -->
+            <div class="row justify-content-center">
+                <div class="col-10 mt-3">
+                    <!-- Form Section Start  -->
+                    <div class="form">
+                        <form action="">
+                            <div class="row justify-content-evenly py-3">
+                                <div class="col-4">
+                                    <div class="row justify-content-center form_1_bg">
+                                        <div class="col-12 p-0">
+                                            <div class="player_1_form"> खिलाड़ी1</div>
+                                        </div>
+                                    
+                                        <div class="col-12 p-0 m-2 mt-4 d-flex flex-column justify-content-center">
+                                            <div class="field">
+                                                <img src="image/user.png" class="field_img1" alt="">
+                                                <input type="text" class="m-0" id="inpNameU_1" placeholder="पूरा नाम">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 p-0 m-2 d-flex flex-column justify-content-center">
+                                            <div class="field">
+                                                <img src="image/call.png" class="field_img2" alt="">
+                                                <input type="number" class="m-0" id="inpPhoneU_1" placeholder="फ़ोन नंबर">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 p-0 m-2 mb-4 d-flex flex-column justify-content-center">
+                                            <div class="field">
+                                                <img src="image/home.png" class="field_img3" alt="">
+                                                <input type="text" class="m-0" id="inpVillageU_1" placeholder="गांव का नाम">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="row justify-content-center form_2_bg">
+                                        <div class="col-12 p-0">
+                                            <div class="player_2_form"> खिलाड़ी2</div>
+                                        </div>
+                                    
+                                        <div class="col-12 p-0 m-2 mt-4 d-flex flex-column justify-content-center">
+                                            <div class="field">
+                                                <img src="image/user.png" class="field_img1" alt="">
+                                                <input type="text" class="m-0" id="inpNameU_2" placeholder="पूरा नाम">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 p-0 m-2 d-flex flex-column justify-content-center">
+                                            <div class="field">
+                                                <img src="image/call.png" class="field_img2" alt="">
+                                                <input type="number" class="m-0" id="inpPhoneU_2" placeholder="फ़ोन नंबर">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 p-0 m-2 mb-4 d-flex flex-column justify-content-center">
+                                            <div class="field">
+                                                <img src="image/home.png" class="field_img3" alt="">
+                                                <input type="text" class="m-0" id="inpVillageU_2" placeholder="गांव का नाम">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-5 mt-3 text-center">
+                                    <input type="button" class="btn type-btn" value="खेलना शुरू करें" onclick="myFunction()"></input>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Form Section End  -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section End  -->
+
+    <!-- Instruction Section Start  -->
+    <section class="info_box d-none">
+        <div class="container-xxl p-0 ">
+            <img src="image/background1.jpg" id="background" class="img-fluid" alt="">
+            <!-- Header Section Start  -->
+            <header class="header">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 py-2">
+                        <img src="image/logo_13.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </header>
+            <!-- Header Section End  -->
+            <div class="row justify-content-center pb-5">
+                <div class="col-7 rounded rounded-3  m-0">
+                    <div class="info-title">
+                        <h5 class="fs-4 text-danger"> खेल के नियम</h5>
+                        <hr class="m-0">
+                    </div>
+                    <ul class="info-list fs-5 fw-bold m-0 p-0 ">
+                       <!--  <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> Data Provide By Client</span></li> -->
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> आप को इस खेल में 15 प्रश्नो के उत्तर देने  हैं ।</span></li>
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> आपके पास प्रत्येक प्रश्न के लिए केवल 20 सेकंड का समय होगा।</span></li>
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> एक बार जब आप अपना उत्तर चुन लेते हैं; तो आप  इसे पूर्ववत(रीफ्रेश) नहीं कर सकते।</span></li>
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> समय समाप्त होने के बाद आप किसी भी विकल्प का चयन नहीं कर सकते।
+                        </span></li>
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> आप खेल बीच में नहीं छोड़ सकते।</span></li>
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> आपको उत्तरों के आधार पर अंक मिलेगा।</span></li>
+                        <li class="info mt-1"><img src="image/crop.png" class="crop" alt=""> <span> यदि आप किसी प्रश्न का गलत उत्तर देते है तो आप का एक अंक घट जायेगा (अगर 0 से ज्यादा है|)</span></li>
+                    </ul>
+                    <hr class="">
+                    <div class="buttons text-end">
+                        <button class="quit btn  me-2 fs-5">खेल से बाहर जाएं</button>
+                        <button class="restart btn  fs-5">जारी रखें</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instruction Section End  -->
+
+    <!-- Price Section Start  -->
+    <section class="price_box d-none">
+        <div class="container-xxl p-0 ">
+            <img src="image/background1.png" id="background" class="img-fluid" alt="">
+            <!-- Header Section Start  -->
+            <header class="header">
+
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12">
+                        <img src="image/logo_13.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+            </header>
+            <!-- Header Section End  -->
+            <div class="row justify-content-center pb-5">
+                <div class="col-8   rounded rounded-3 p-4 pb-5 m-0">
+                    <div class="info-title">
+                        <h3 class="fw-bold text-danger text-center">उपहार</h3>
+                        <!-- <hr class="m-0"> -->
+                        <img src="image/gift.png" class="img-fluid mb-3" alt="">
+                    </div>
+                    <div class="buttons text-end">
+                        <button class="quit btn me-2 fs-5">खेल से बाहर जाएं</button>
+                        <button class="restart btn fs-5">जारी रखें</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Price Section End  -->
+
+    <!-- Game Section Start  -->
+    <section class="quiz_box d-none">
+        <canvas id="my-canvas" class="d-none"></canvas>
+        <div class="container-xxl p-0 ">
+            <img src="image/background1.jpg" id="background" class="img-fluid" alt="">
+            <!-- Header Section Start  -->
+            <header class="header">
+                <div class="row justify-content-center">
+                    <div class="col-9 pt-2">
+                        <img src="image/logo_13.png" class="img-fluid" alt="">
+                    </div>
+                    <!-- <div class="col-6 ">
+                        <h1 class="m-0 text-center"><span>कौन बनेगा </span><span>समृद्ध किसान?</span></h1>
+                    </div>
+                    <div class="col-2  text-end py-2">
+                        <img src="image/Pioneer.png" class="img-fluid" alt="">
+                    </div> -->
+                </div>
+            </header>
+            <!-- Header Section End  -->
+            <main>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-2">
+                        <table class="table bg-white p-2 table-bordered table-hover" id="question_table1">
+                            <thead class="">
+                                <tr class="table-dark text-center"> <td colspan="2"> खिलाड़ी1</td></tr>
+                                <tr style="background-color:#DDFFBB !important;"> 
+                                <form action="">
+                                    <td id="player_1_Name" class="text-black fw-bold"> Jitender</td>
+                                    <td class="text-center" title="Check this to add score in Player 1"><input type="checkbox" name="" id="player_1_Check"></td>
+                                </form>
+                                </tr>
+                                <tr>
+                                    <td>अंक</td>
+                                    <td id="player_1_score" class="text-black fw-bold">00</td>
+                                </tr>
+                                <!-- <tr>
+                                    <th scope="col">प्रश्न संख्या</th>
+                                    <th scope="col">सही/ग़लत</th>
+                                </tr> -->
+                            </thead>
+                            <tbody>
+                                <!-- this part in coming from javascript -->
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="col-6 m-0">
+                        <div class="timer">
+                            <div class="row justify-content-center">
+                                <div class="col-2 p-0">
+                                    <div class="timer-box d-flex flex-row align-items-center justify-content-center">
+                                            <span class="timer_sec ">20</span>
+                                            <span class="time_left_txt ms-2">शेष <br>समय</span>
+                                    </div>
+                                </div>
+                                <div class="col-2 p-0">
+                                    <div class="total_que text-end">
+                                        <p class="m-0">आप प्रश्न संख्या</p>
+                                        <p class="m-0"><b>2/5</b> पर हैं।</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="show-question">
+                            <div class="row justify-content-center">
+                                <div class="col-10 mt-5">
+                                    <div class="que_text text-center">
+                                        <!-- this part in coming from javascript -->
+                                    </div>
+                                    <div class="row justify-content-around option_list  mt-3">
+                                        <!-- this part in coming from javascript -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="col-2">
+                        <table class="table bg-white p-2 table-bordered table-hover" id="question_table2">
+                            <thead class="">
+                                <tr class="table-dark text-center"> <td colspan="2"> खिलाड़ी2</td></tr>
+                                <tr style="background-color: #FEFF86;"> 
+                                <form action="">
+                                    <td id="player_2_Name" class="text-color fw-bold"> Jitender</td>
+                                    
+                                    <td class="text-center" title="Check this to add score in Player 2"><input type="checkbox" name="" id="player_2_Check"></td>
+                                </form>
+                                </tr>
+                                <tr>
+                                    <td>अंक</td>
+                                    <td id="player_2_score" class="text-black fw-bold">00</td>
+                                </tr>
+                                <!-- <tr>
+                                    <th scope="col">प्रश्न संख्या</th>
+                                    <th scope="col">सही/ग़लत</th>
+                                </tr> -->
+                            </thead>
+                            <tbody>
+                                <!-- this part in coming from javascript -->
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+                <div class="quiz_option">
+                    <div class="row justify-content-around">
+                        <div class="col-10">
+                            <div class="row justify-content-evenly">
+                                 <div class="col-2">
+                                    <!--<div class="option_box_cover d-flex justify-content-evenly align-items-center mx-auto">
+                                        <div class="fifty d-flex justify-content-evenly align-items-center position-relative  text-center ">
+                                            <img src="image/fifty.png" title="इसका उपयोग तब करें जब आप दो गलत प्रश्नों को छिपाना चाहते हैं और आप इसे केवल एक बार उपयोग कर सकते हैं" class="" alt="">
+                                        </div>
+                                        <div class="audition d-flex justify-content-evenly align-items-center position-relative  text-center " title="जब आप प्रश्न के बारे में लोगों से पूछना चाहते हैं तो इसका उपयोग करें और आप इसे केवल एक बार उपयोग कर सकते हैं">
+                                            <img src="image/audience.png" class="" alt="">
+                                        </div>
+                                    </div>-->
+                                </div> 
+                                <div class="col-2">
+                                    <div class="option_box_cover d-flex justify-content-evenly align-items-center mx-auto">
+                                        <!-- <img src="image/fifty.png" class="fifty" alt=""> -->
+                                        <img src="image/audience.png" class="audition"  alt="">
+                                        <img src="image/refresh.png" class="refresh" alt="">
+                                        <img src="image/play.png" class="play" data-src="play" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class=" d-flex justify-content-evenly align-items-center mx-auto">
+                                        <div class="skip  option_box_cover">प्रश्न छोड़ें</div>
+                                        <div class="next_btn option_box_cover"> अगला प्रश्न <img src="image/next.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <!-- Game Section End  -->
+
+    <!-- Restul Section Start  -->
+    <section class="result_box d-none">
+        <div class="container-xxl p-0 ">
+            <img src="image/background1.jpg" id="background" class="img-fluid" alt="">
+            <!-- Header Section Start  -->
+            <header class="header">
+                <div class="row justify-content-between align-items-center py-3">
+                    <div class="col-12">
+                        <img src="image/logo_13.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </header>
+            <!-- Header Section End  -->
+            <div class="row  justify-content-center">
+                <div id="result_print" class="col-12 rounded rounded-1 fs-4">
+                    <!-- this is coming from javascript -->
+                    <div class="score_text">
+                        <!-- this is coming from javascript -->
+                        <div class="row justify-content-center py-5">
+                            <div class="col-4" id="player_1_result_box">
+                                <!-- <img src="image/Trophy_1.png" alt="" class="winner_img d-none w-50" id=""> -->
+                                <h3 class="winner_heading d-none text-center display-2 text-success" id="">आप विजेता हैं</h3>
+                                <table class="table table-bordered fs-5">
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी1 नाम</td>
+                                        <td id="player1_NameFinal">Jitender</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी1 फ़ोन</td>
+                                        <td id="player1_PhoneFinal">6958659832</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी1 गाँव</td>
+                                        <td id="player1_VillageFinal">Agra</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी1 अंक</td>
+                                        <td id="player1_ScoreFinal">00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-1 text-center"><div class="vr h-100"></div></div>
+                            <div class="col-4" id="player_2_result_box">
+                                <!-- <img src="image/Trophy_1.png" alt="" class="winner_img d-none" id=""> -->
+                                <h3 class="winner_heading d-none text-center display-2 text-success" id="">आप विजेता हैं</h3>
+
+                                <table class="table table-bordered fs-5">
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी2 नाम</td>
+                                        <td id="player2_NameFinal">Jitender</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी2 फ़ोन</td>
+                                        <td id="player2_PhoneFinal">6958659832</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी2 गाँव</td>
+                                        <td id="player2_VillageFinal">Agra</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bg-dark text-light">खिलाड़ी2 अंक</td>
+                                        <td id="player2_ScoreFinal">00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons d-flex justify-content-end">
+                        <!-- <button class="print btn btn-primary fs-5" onclick="printDiv();"> प्रिंट करें</button> -->
+                        <button class="restart btn btn-danger fs-5" onclick="reLoad();">समाप्त करें</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Restul Section End  -->
+
+
+
+
+
+
+
+
+
+    <audio src="sounds/intro.mp3" id="intro"> </audio>
+    <audio src="sounds/clapping.mp3" id="clapping"> </audio>
+    <audio src="sounds/tik_tik.mp3" id="tik_tik"> </audio>
+    <audio src="sounds/correct_answer.mp3" id="correct_answer"> </audio>
+    <audio src="sounds/wrong_answer1.mp3" id="wrong_answer1"> </audio>
+    <audio src="sounds/wrong_answer2.mp3" id="wrong_answer2"> </audio>
+
+
+
+
+
+
+
+    <!-- Js File Script  -->
+
+    <!-- ========== Bootstrap Js ========== -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- ========== Questions Js ========== -->
+    <script src="js/question2.js"></script>
+
+
+    <!-- ========== main Js ========== -->
+    <script src="js/main.js"></script>
+
+    <!-- ========== confetti falling Js ========== -->
+    <script src="js/index.min.js"></script>
+    <script>
+        // This Function is for birthday poper 
+        var confettiSettings = {
+            target: 'my-canvas'
+        };
+        var confetti = new ConfettiGenerator(confettiSettings);
+        confetti.render();
+    </script>
+</body>
+
+</html>
